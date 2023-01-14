@@ -24,7 +24,7 @@ __I am very excited for CSE15L for these reasons__
 
 ##Helpful Links
 
-[Link](https://docs.oracle.com/en/java/)
+[Java Documentation](https://docs.oracle.com/en/java/)
 
 > I am using a blockquote
 
