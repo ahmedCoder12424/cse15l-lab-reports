@@ -1,38 +1,38 @@
 # VScode/Remote Login Set Up Instructions 
 
-1. __Install VScode__
+1) __Install VScode__
 
 Install vscode with this [link](https://code.visualstudio.com/).
 
 I didn't need to do this step because I had it installed alreadly.
 
-2. __Find CSE15l account__
+2) __Find CSE15l account__
 
 Go to this [link](https://sdacs.ucsd.edu/~icc/index.php) and look up your account entering your username and PID.
 
-3. __Change Password__
+3) __Change Password__
 
 After finding your cse15l account click on it to change the password. When it asks for your username and PID again, __ENTER YOUR CSE15L USERNAME NOT YOUR GENERAL USERNAME__.
 After doing so, change your password. __Make sure to select NO__ for changing general Triton link account's password.
 
 ![Image](https://github.com/ahmedCoder12424/cse15l-lab-reports/blob/main/step1.png)
 
-4. __Wait__ 
+4) __Wait__ 
 
 Wait for the password reset to take place. It may take 15 min to a day.
 
-5. __Open Terminal on VScode__
+5) __Open Terminal on VScode__
 
 Click on Terminal on VScode and select new Terminal to open up a new terminal.
 
-6. __Login on VScode Terminal__
+6) __Login on VScode Terminal__
 
 To login, in the terminal, type in `ssh cse15lwi23zzz`. zzz is your specific letter sequence in your account.
 Enter your password after being prompted to do so.
 
 ![Image](https://github.com/ahmedCoder12424/cse15l-lab-reports/blob/main/step2.png)
 
-7. __Run some commands__ 
+7) __Run some commands__ 
 
 Finally, run the following commands to test your remote login.
 
