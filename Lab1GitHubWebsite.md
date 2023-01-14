@@ -4,7 +4,7 @@
 
 . . . . print("Hello World)
 
-**I am very excited for CSE15L for these reasons **
+__I am very excited for CSE15L for these reasons__
 
 * Practicality
 * to learn new things
