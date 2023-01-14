@@ -22,7 +22,7 @@ __I am very excited for CSE15L for these reasons__
 
 `Scanner input = new Scanner(System.in)` is used to read user input
 
-##Helpful Links
+
 
 [Java Documentation](https://docs.oracle.com/en/java/)
 
