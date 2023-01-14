@@ -1,4 +1,4 @@
-#Remote Login Instructions 
+# Remote Login Instructions 
 
 1. __Find CSE15l account__
 
@@ -7,7 +7,7 @@ Go to [Link](https://sdacs.ucsd.edu/~icc/index.php) and look up your account ent
 2. __Change Password__
 
 After finding your cse15l account click on it to change the password. When it asks for your username and PID again, __ENTER YOUR CSE15L USERNAME NOT YOUR GENERAL USERNAME__
-After doing so, change your password. __Make sure to select NO __ for changing general Triton link account's password.
+After doing so, change your password. __Make sure to select NO__ for changing general Triton link account's password.
 
 3. __Wait__ 
 
