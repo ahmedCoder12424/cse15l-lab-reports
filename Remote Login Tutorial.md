@@ -9,7 +9,7 @@ Go to this [link](https://sdacs.ucsd.edu/~icc/index.php) and look up your accoun
 After finding your cse15l account click on it to change the password. When it asks for your username and PID again, __ENTER YOUR CSE15L USERNAME NOT YOUR GENERAL USERNAME__.
 After doing so, change your password. __Make sure to select NO__ for changing general Triton link account's password.
 
-![Image]([https://github.com/ahmedCoder12424/cse15l-lab-reports/blob/main/step1.png])
+![Image](https://github.com/ahmedCoder12424/cse15l-lab-reports/blob/main/step1.png)
 
 3. __Wait__ 
 
