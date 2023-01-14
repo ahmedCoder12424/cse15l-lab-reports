@@ -13,11 +13,11 @@ After doing so, change your password. __Make sure to select NO__ for changing ge
 
 Wait for the password reset to take place. It may take 15 min to a day.
 
-4.__Open Terminal on VScode__
+4. __Open Terminal on VScode__
 
 Click on Terminal on VScode and select new Terminal to open up a new terminal.
 
-5.__Login on VScode Terminal__
+5. __Login on VScode Terminal__
 
 To login, in the terminal, type in `ssh cse15lwi23zzz`. zzz is your specific letter sequence in your account.
 Enter your password after being prompted to do so.
