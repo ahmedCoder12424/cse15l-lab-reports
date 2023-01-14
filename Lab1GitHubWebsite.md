@@ -2,7 +2,9 @@
 
 ## components
 
-. . . . print("Hello World)
+```
+print("Hello World)
+```
 
 __I am very excited for CSE15L for these reasons__
 
