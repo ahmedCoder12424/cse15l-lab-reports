@@ -17,9 +17,7 @@ After doing so, change your password. __Make sure to select NO__ for changing ge
 
 ![Image](step1.png)
 
-![Image][1]
-⋮
-[1]: step1.png
+
 
 4) __Wait__ 
 
