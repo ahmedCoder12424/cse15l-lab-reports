@@ -2,7 +2,7 @@
 
 1. __Find CSE15l account__
 
-Go to [Link](https://sdacs.ucsd.edu/~icc/index.php) and look up your account entering your username and PID.
+Go to this [link](https://sdacs.ucsd.edu/~icc/index.php) and look up your account entering your username and PID.
 
 2. __Change Password__
 
