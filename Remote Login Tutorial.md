@@ -15,7 +15,7 @@ Go to this [link](https://sdacs.ucsd.edu/~icc/index.php) and look up your accoun
 After finding your cse15l account click on it to change the password. When it asks for your username and PID again, __ENTER YOUR CSE15L USERNAME NOT YOUR GENERAL USERNAME__.
 After doing so, change your password. __Make sure to select NO__ for changing general Triton link account's password.
 
-![Image](https://github.com/ahmedCoder12424/cse15l-lab-reports/blob/main/step1.png)
+![Image](step1.png)
 
 4) __Wait__ 
 
@@ -30,7 +30,7 @@ Click on Terminal on VScode and select new Terminal to open up a new terminal.
 To login, in the terminal, type in `ssh cse15lwi23zzz`. zzz is your specific letter sequence in your account.
 Enter your password after being prompted to do so.
 
-![Image](https://github.com/ahmedCoder12424/cse15l-lab-reports/blob/main/step2.png)
+![Image](step2.png)
 
 7) __Run some commands__ 
 
@@ -44,4 +44,4 @@ Finally, run the following commands to test your remote login.
 * cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
 * cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 
-![Image](https://github.com/ahmedCoder12424/cse15l-lab-reports/blob/main/step3.png)
+![Image](step3.png)
