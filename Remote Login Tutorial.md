@@ -1,4 +1,10 @@
-# Remote Login Instructions 
+# VScode/Remote Login Set Up Instructions 
+
+1.Install VScode
+
+Install vscode with this [link](https://code.visualstudio.com/).
+
+I didn't need to do this step because I had it installed alreadly.
 
 1. __Find CSE15l account__
 
