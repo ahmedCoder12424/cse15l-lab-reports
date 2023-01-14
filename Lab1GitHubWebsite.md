@@ -20,7 +20,7 @@ __I am very excited for CSE15L for these reasons__
 2. Pulao
 3. Samosas
 
-![Image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.foodnetwork.com%2Frecipes%2Fsamosa-12112498&psig=AOvVaw2aeK-FwG5I9qO56-jxabG0&ust=1673821980144000&source=images&cd=vfe&ved=0CA8QjRxqFwoTCPCe2veOyPwCFQAAAAAdAAAAABAD)
+![Image](https://food.fnr.sndimg.com/content/dam/images/food/fullset/2021/12/09/0/DV3501_samosa-curry-fried-chicken-salt-lake-city-2_s4x3.jpg.rend.hgtvcom.616.462.suffix/1639061347834.jpeg)
 
 `Scanner input = new Scanner(System.in)` is used to read user input
 
