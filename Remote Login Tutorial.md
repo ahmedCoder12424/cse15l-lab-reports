@@ -24,7 +24,7 @@ Click on Terminal on VScode and select new Terminal to open up a new terminal.
 To login, in the terminal, type in `ssh cse15lwi23zzz`. zzz is your specific letter sequence in your account.
 Enter your password after being prompted to do so.
 
-![Image](http://url/a.png)
+![Image]([https://github.com/ahmedCoder12424/cse15l-lab-reports/step2.png])
 
 6. __Run some commands__ 
 
@@ -38,4 +38,4 @@ Finally, run the following commands to test your remote login.
 * cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/
 * cat /home/linux/ieng6/cs15lwi23/public/hello.txt
 
-![Image](http://url/a.png)
+![Image]([https://github.com/ahmedCoder12424/cse15l-lab-reports/step2.png])
