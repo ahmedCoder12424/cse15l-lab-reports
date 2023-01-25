@@ -46,6 +46,6 @@ Finally, run the following commands to test your remote login.
 * `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
 * `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
 
-The `cd` command changes directory and two commands show run without error. The `ls` command lists files in a certain directory and show different things for each of three `ls` commands shown. The `cp` command copies the fille 'hello.txt' into the current directory. Lastly, the `cat` shows the contents of the 'hello.txt' file.
+The `cd` command changes directory and two commands show run without error. The `ls` command lists files in a certain directory and show different things for each of three `ls` commands shown. The `cp` command copies the fille `hello.txt` into the current directory. Lastly, the `cat` shows the contents of the `hello.txt` file.
 
 ![Image](step3.png)
