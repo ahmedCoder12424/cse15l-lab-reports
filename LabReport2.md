@@ -29,6 +29,8 @@ __Part 2__
 ReverseInPlace
 
 Failure Inducing Input - {1,2,3}
+
+expected output: {3,2,1}  actual output: {3,2,3}
 ```
   @Test
   public void testReverseInPlace2() {
@@ -41,12 +43,14 @@ Failure Inducing Input - {1,2,3}
 
 Successful Input  - {1,1,1}
 
+expected output: {1,1,1}  actual output: {1,1,1}
+
 ```
 @Test 
 public void testReverseInPlace() {
-    int[] input1 = { 3 };
+    int[] input1 = { 1,1,1 };
     ArrayExamples.reverseInPlace(input1);
-    assertArrayEquals(new int[]{ 3 }, input1);
+    assertArrayEquals(new int[]{ 1,1,1 }, input1);
 	}
 ```
 
@@ -79,7 +83,10 @@ Code after bug fixed
   }
 
 ```
+__Part 3__
 
+In week 2, I learned how URL paths are parsed by webservers to change output on webpage. In week 3, I learned to distinguish the particular terminology
+around programming errors such as bugs, symptoms, failure inducing inputs.
 
 
 
