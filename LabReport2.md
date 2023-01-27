@@ -26,9 +26,9 @@ the second string is appended along with a new line character.
 __Part 2__
 
 
-ReverseInPlace
+__reverseInPlace())__
 
-Failure Inducing Input - {1,2,3}
+1) __Failure Inducing Input__ - {1,2,3}
 
 expected output: {3,2,1}  actual output: {3,2,3}
 ```
@@ -41,7 +41,7 @@ expected output: {3,2,1}  actual output: {3,2,3}
 
 ```
 
-Successful Input  - {1,1,1}
+2) __Successful Input__  - {1,1,1}
 
 expected output: {1,1,1}  actual output: {1,1,1}
 
@@ -55,10 +55,10 @@ public void testReverseInPlace() {
 ```
 
 
-Symptom - Incorrect Output, output is not reversed version of input
+3) __Symptom__ - Incorrect Output, output is not reversed version of input
 
 
-Bug - 
+4) __Bug__ - 
 
 The loop should run only length/2 times and should assigning `arr[arr.length-i-1]` to the original value of `a[i]`.
 
