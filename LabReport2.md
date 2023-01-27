@@ -58,9 +58,7 @@ public void testReverseInPlace() {
 3) __Symptom__ - Incorrect Output, output is not reversed version of input
 
 
-4) __Bug__ - 
-
-The loop should run only length/2 times and should assigning `arr[arr.length-i-1]` to the original value of `a[i]`.
+4) __Bug__ - The loop should run only length/2 times and should be assigning `arr[arr.length-i-1]` to the original value of `a[i]`.
 
 Code before bug fixed
 ```
