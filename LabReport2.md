@@ -43,7 +43,7 @@ Successful Input  - {1,1,1}
 
 ```
 @Test 
-	public void testReverseInPlace() {
+public void testReverseInPlace() {
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
@@ -58,15 +58,29 @@ Bug -
 
 The loop should run only length/2 times and should assigning `arr[arr.length-i-1]` to the original value of `a[i]`.
 
-For (int i = 0; i < arr.length/2; i++){
-	Int temp =arr[i];
-	Arr[i] = arr[arr.length-i-1];
-	Arr[arr.length-i-1] = temp;
-}
+Code before bug fixed
+```
+static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+
+```
+
+
+Code after bug fixed 
+```
+ static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length/2; i += 1) {
+      int temp =arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = temp;
+    }
+  }
+
+```
 
 
 
-Arr[i] = copyArr[arr.length-i-1]; inside for loop 
 
- Farhat Ahmed
 
