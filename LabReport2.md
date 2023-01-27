@@ -1,4 +1,7 @@
-#1 CSE15L Lab Report 2
+CSE15L Lab Report 2
+=====
+
+
 __Part 1__
 
 __StringServer___
