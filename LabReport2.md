@@ -21,3 +21,52 @@ The handleRequest method takes in a url as a parameter. First, I have a if state
 If the path is not empty, the else statement checks if url contains `/add-message`. Then the code splits the remaining part of path after `?` into an array of strings.
 The first string is `"s"` and second string in the array is the content to be added to server. I created a string variable called content and 
 the second string is appended along with a new line character.
+
+
+__Part 2__
+
+
+ReverseInPlace
+
+Failure Inducing Input - {1,2,3}
+```
+  @Test
+  public void testReverseInPlace2() {
+    int[] input1 = { 1,2,3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3,2,1 }, input1);
+	}
+
+```
+
+Successful Input  - {1,1,1}
+
+```
+@Test 
+	public void testReverseInPlace() {
+    int[] input1 = { 3 };
+    ArrayExamples.reverseInPlace(input1);
+    assertArrayEquals(new int[]{ 3 }, input1);
+	}
+```
+
+
+Symptom - Incorrect Output, output is not reversed version of input
+
+
+Bug - 
+
+The loop should run only length/2 times and should assigning `arr[arr.length-i-1]` to the original value of `a[i]`.
+
+For (int i = 0; i < arr.length/2; i++){
+	Int temp =arr[i];
+	Arr[i] = arr[arr.length-i-1];
+	Arr[arr.length-i-1] = temp;
+}
+
+
+
+Arr[i] = copyArr[arr.length-i-1]; inside for loop 
+
+ Farhat Ahmed
+
