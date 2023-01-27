@@ -84,6 +84,8 @@ Code after bug fixed
   }
 
 ```
+The fix here solves the bug because it saves copy of the original value of `arr[i]` and assigned to it `arr[arr.length - i - 1] = temp` and the loop only
+runs half the length of `arr`. This ensures the array is correctly reversed.
 __Part 3__
 
 In week 2, I learned how URL paths are parsed by webservers to change output on webpage. In week 3, I learned to distinguish the particular terminology
