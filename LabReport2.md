@@ -26,7 +26,7 @@ the second string is appended along with a new line character.
 __Part 2__
 
 
-__reverseInPlace())__
+__reverseInPlace()__
 
 1) __Failure Inducing Input__ - {1,2,3}
 
