@@ -1,15 +1,15 @@
 
-Part 1
+__Part 1__
 
-StringServer
+__StringServer___
 
-Working StringServer
+__Working StringServer__
 
 ![Image](StringSrvr1.png)
 ![Image](StringSrvr2.png)
 ![Image](StringSrvr3.png)
 
-String Server Code
+__String Server Code__
 
 ![Image](StringServerCode1.png)
 
