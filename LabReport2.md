@@ -60,8 +60,11 @@ public void testReverseInPlace() {
 
 3) __Symptom__ - Incorrect Output, output is not reversed version of input
 
+![Image](symptom.png)
+
 
 4) __Bug__ - The loop should run only length/2 times and should be assigning `arr[arr.length-i-1]` to the original value of `a[i]`.
+The output of the test has 3 as the last value instead of the expected 1 because once the loop gets to index arr.length-1, arr[i] index has alreadly lost its original value being assigned to the value at index arr.length-1 previously in the loop. This motivates my bug fix since I simultaneously assign arr[i] ot arr[arr.length-i-1]'s value and arr[arr.length-i-1] to arr[i]'s value.
 
 Code before bug fixed
 ```
