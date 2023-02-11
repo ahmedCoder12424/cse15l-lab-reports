@@ -2,7 +2,7 @@ CSE15L Lab Report 2
 =====
 
 
-#__Part 1__
+# __Part 1__
 
 __StringServer__
 
@@ -26,7 +26,7 @@ The first string is `"s"` and second string in the array is the content to be ad
 the second string is appended along with a new line character.
 
 
-#__Part 2__
+# __Part 2__
 
 
 __reverseInPlace()__
@@ -89,7 +89,7 @@ Code after bug fixed
 ```
 The fix here solves the bug because it saves copy of the original value of `arr[i]` and assigned to it `arr[arr.length - i - 1] = temp` and the loop only
 runs half the length of `arr`. This ensures the array is correctly reversed.
-#__Part 3__
+# __Part 3__
 
 In week 2, I learned how URL paths are parsed by webservers to change output on webpage. In week 3, I learned to distinguish the particular terminology
 around programming errors such as bugs, symptoms, failure inducing inputs.
