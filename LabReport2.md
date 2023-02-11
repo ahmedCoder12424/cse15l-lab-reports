@@ -4,7 +4,7 @@ CSE15L Lab Report 2
 
 __Part 1__
 
-__StringServer___
+__StringServer__
 
 __Working StringServer__
 
