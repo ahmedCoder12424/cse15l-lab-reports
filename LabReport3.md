@@ -6,7 +6,7 @@ source: https://man7.org/linux/man-pages/man1/grep.1.html
 
 ![Image](-line1.png)
 
-![Image](-line2.png)
+![Image](-line3.png)
 
 
 2. -L - files without match 
