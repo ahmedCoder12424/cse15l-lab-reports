@@ -47,7 +47,7 @@ written_2/travel_guides/berlitz2/Nepal-WhereToGo.txt
 
 
 
-2. -L - outputs path of files without matching string. This is essentially the inverse of -l command and can be helpful in finding files without a common string. 
+## 2. -L - outputs path of files without matching string. This is essentially the inverse of -l command and can be helpful in finding files without a common string. 
 
 ### Example #1
 
@@ -133,7 +133,7 @@ written_2/travel_guides/berlitz1/IntroEdinburgh.txt
 
 
 
-3. -c - count number of matching lines in input file. This is helpful for easily seeing how many matches each file contains. 
+## 3. -c - count number of matching lines in input file. This is helpful for easily seeing how many matches each file contains. 
 
 ### Example #1
 
@@ -196,7 +196,7 @@ written_2/non-fiction/OUP/Castro/chL.txt:2
 written_2/non-fiction/OUP/Castro/chM.txt:2
 
 ```
-4. -n -  each line of output contains line number of each line containing string. This helps us locate where in each of the files contain matching stings. 
+## 4. -n -  each line of output contains line number of each line containing string. This helps us locate where in each of the files contain matching stings. 
 
 ### Example #1
 __command:__
