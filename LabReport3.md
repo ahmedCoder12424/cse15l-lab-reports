@@ -336,28 +336,7 @@ written_2/travel_guides/berlitz1/WhereToMalaysia.txt:1206:        the royal town
 written_2/travel_guides/berlitz1/WhereToMalaysia.txt:1214:        Malaysia’s tourism promotion. But tourism in the area is centered on
 written_2/travel_guides/berlitz1/WhereToMalaysia.txt:1269:        Buku Malaysia, is said to have the only village book market in
 written_2/travel_guides/berlitz1/WhereToMalaysia.txt:1272:        Malaysia’s less-visited east coast offers the visitor a
-written_2/travel_guides/berlitz1/WhereToMalaysia.txt:1278:        resistant to many of the major changes in the rest of Malaysia, the
-written_2/travel_guides/berlitz1/WhereToMalaysia.txt:1348:        Malaysian culture is to be seen at the Gelanggan Seni (Culture Center)
-written_2/travel_guides/berlitz1/WhereToMalaysia.txt:1374:        One of the oldest mosques in Malaysia is to be found at
-written_2/travel_guides/berlitz1/WhereToMalaysia.txt:1435:        Malaysia’s marine parks. On both islands accommodations range from
-written_2/travel_guides/berlitz1/WhereToMalaysia.txt:1473:        the boat-builders, whose reputations extend far beyond Malaysia. Many
-written_2/travel_guides/berlitz1/WhereToMalaysia.txt:1535:        end of the 1980s. At this point, the Malaysian fisheries department
-written_2/travel_guides/berlitz1/WhereToMalaysia.txt:1676:        peninsular Malaysia. Other species to be found here include the
-written_2/travel_guides/berlitz1/WhereToMalaysia.txt:1759:        traveler in East Malaysia. From shopping for exotic souvenirs and
-written_2/travel_guides/berlitz1/WhereToMalaysia.txt:1777:        operated by Malaysia Airlines.
-written_2/travel_guides/berlitz1/WhereToMalaysia.txt:1780:        historic capital of Malaysia’s largest state — covering 124,967 sq km
-written_2/travel_guides/berlitz1/WhereToMalaysia.txt:1794:        Unlike the other major towns of East Malaysia — Miri, Kota
-written_2/travel_guides/berlitz1/WhereToMalaysia.txt:1985:        in the day. Malaysian tourism authorities may also be able to offer
-written_2/travel_guides/berlitz1/WhereToMalaysia.txt:1994:        Belaga, up the Rejang River. The Rejang is considered Malaysia’s
-written_2/travel_guides/berlitz1/WhereToMalaysia.txt:2003:        sapiens in Malaysia; they lived in the area up to 40,000 years ago.
-written_2/travel_guides/berlitz1/WhereToMalaysia.txt:2250:        takes you through Malaysia’s varieties of forest and landscape, from
-written_2/travel_guides/berlitz1/WhereToMalaysia.txt:2426:        KL, most people flew into or out of Singapore on their Malaysia trip,
-written_2/travel_guides/berlitz1/WhereToMalaysia.txt:2435:        Bahru at the southern tip of the Malaysian peninsula, covers 618 sq km
-written_2/travel_guides/berlitz1/WhereToMalaysia.txt:2460:        The causeway to Malaysia carries much of Singapore’s food
-written_2/travel_guides/berlitz1/WhereToMalaysia.txt:2496:        Attention is also given to Malaysian and Indonesian arts and a
-written_2/travel_guides/berlitz1/WhereToMalaysia.txt:2579:        launched Malaysia’s rubber industry (see page 27). Two aging trees here
-written_2/travel_guides/berlitz2/California-WhereToGo.txt:143:The highlight of the park is the San Diego Zoo, one of the finest in the world. Established in 1922, the zoo was a pioneer in the use of moats, ravines, rocks, and embankments rather than bars and cages, giving the animals as large, free, and natural a living space as possible. It is famous for its Sumatran tigers and Malaysian sun bears as well as a colony of koala bears — the only breeding population outside Australia. You can enjoy a bird’s-eye view of the zoo from the Skyfari aerial tramway, or take a guided tour bus. An extension of the zoo is located 30 miles (48 km) north at the San Diego Wild Animal Park in Escondido, where 2,500 animals, including zebra, lions, elephants, cheetahs, and rhinoceros, roam freely.
-written_2/travel_guides/berlitz2/Portugal-History.txt:27:Trading posts were set up all along the west and east coasts of Africa, in the Middle East (Hormuz), southern India (Goa), Malaysia (Malacca), and even in China (Macau). Profits came primarily from trading in eastern spices, silk and porcelain, African gold, and slaves, as well as through importing copious sugar from Brazil and São Tomé.
+
 ```
 
 
