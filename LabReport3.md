@@ -1,38 +1,211 @@
-grep options 
+# Options of Grep Command
 
-source: https://man7.org/linux/man-pages/man1/grep.1.html
+[Source](/guides/content/editing-an-existing-page)
 
-1. -l - outputs path of files with matching string. This is helpful because in the output file, we simply which files contain the word rather than all the content of the files. 
+## 1. -l - outputs path of files with matching string. This is helpful because in the output file, we simply which files contain the word rather than all the content of the files. 
 
-![Image](-line1.png)
+### Example #1
 
-![Image](-line3.png)
+__command:__
+```
+[cs15lwi23axu@ieng6-202]:skill-demo1-data:411$ xargs grep -l "Malaysia" < grep-results.txt > wordSearch.txt
+
+```
+__output:__ 
+```
+[cs15lwi23axu@ieng6-202]:skill-demo1-data:412$ cat wordSearch.txt
+written_2/travel_guides/berlitz1/HistoryMalaysia.txt
+written_2/travel_guides/berlitz1/IntroMalaysia.txt
+written_2/travel_guides/berlitz1/JungleMalaysia.txt
+written_2/travel_guides/berlitz1/WhatToMalaysia.txt
+written_2/travel_guides/berlitz1/WhereToIndia.txt
+written_2/travel_guides/berlitz1/WhereToMalaysia.txt
+written_2/travel_guides/berlitz2/California-WhereToGo.txt
+written_2/travel_guides/berlitz2/Portugal-History.txt
+
+```
+
+### Example #2
+
+__command:__
+```
+[cs15lwi23axu@ieng6-202]:skill-demo1-data:464$ xargs grep -l "Bengal" < grep-results.txt > wordSearch.txt
+
+```
+__output:__ 
+```
+[cs15lwi23axu@ieng6-202]:skill-demo1-data:465$ cat wordSearch.txt
+written_2/travel_guides/berlitz1/HistoryIndia.txt
+written_2/travel_guides/berlitz1/HistoryMalaysia.txt
+written_2/travel_guides/berlitz1/IntroIndia.txt
+written_2/travel_guides/berlitz1/WhereToIndia.txt
+written_2/travel_guides/berlitz2/Nepal-History.txt
+written_2/travel_guides/berlitz2/Nepal-WhereToGo.txt
+
+```
+
+
 
 
 2. -L - outputs path of files without matching string. This is essentially the inverse of -l command and can be helpful in finding files without a common string. 
 
+### Example #1
 
-![Image](-L1.png)
+__command:__
+```
+[cs15lwi23axu@ieng6-202]:skill-demo1-data:416$ xargs grep -L "war" < grep-results.txt > wordSearch.txt
 
-![Image](-L3.png)
+
+
+```
+
+__output:__ 
+```
+[cs15lwi23axu@ieng6-202]:skill-demo1-data:417$ cat wordSearch.txt
+written_2/non-fiction/OUP/Abernathy/ch9.txt
+written_2/non-fiction/OUP/Castro/chN.txt
+written_2/non-fiction/OUP/Castro/chO.txt
+written_2/non-fiction/OUP/Castro/chW.txt
+written_2/non-fiction/OUP/Castro/chY.txt
+written_2/travel_guides/berlitz1/HandRHawaii.txt
+written_2/travel_guides/berlitz1/HandRHongKong.txt
+written_2/travel_guides/berlitz1/HandRIbiza.txt
+written_2/travel_guides/berlitz1/HandRIstanbul.txt
+written_2/travel_guides/berlitz1/HandRJerusalem.txt
+written_2/travel_guides/berlitz1/HandRLakeDistrict.txt
+written_2/travel_guides/berlitz1/HandRLasVegas.txt
+written_2/travel_guides/berlitz1/HandRLisbon.txt
+written_2/travel_guides/berlitz1/HandRLosAngeles.txt
+written_2/travel_guides/berlitz1/HandRMadeira.txt
+written_2/travel_guides/berlitz1/IntroHongKong.txt
+written_2/travel_guides/berlitz1/IntroJerusalem.txt
+written_2/travel_guides/berlitz1/IntroLosAngeles.txt
+written_2/travel_guides/berlitz1/JungleMalaysia.txt
+written_2/travel_guides/berlitz1/WhatToFrance.txt
+written_2/travel_guides/berlitz1/WhereToHawaii.txt
+written_2/travel_guides/berlitz2/Cuba-WhatToDo.txt
+written_2/travel_guides/berlitz2/Paris-WhatToDo.txt
+
+
+```
+### Example #2
+
+__command:__
+```
+[cs15lwi23axu@ieng6-202]:skill-demo1-data:418$ xargs grep -L "important" < grep-results.txt > wordSearch.txt
+
+
+```
+
+__output:__ 
+```
+[cs15lwi23axu@ieng6-202]:skill-demo1-data:419$ cat wordSearch.txt
+written_2/non-fiction/OUP/Castro/chO.txt
+written_2/non-fiction/OUP/Castro/chV.txt
+written_2/non-fiction/OUP/Castro/chZ.txt
+written_2/non-fiction/OUP/Fletcher/ch9.txt
+written_2/non-fiction/OUP/Kauffman/ch5.txt
+written_2/non-fiction/OUP/Rybczynski/ch2.txt
+written_2/travel_guides/berlitz1/HandRHawaii.txt
+written_2/travel_guides/berlitz1/HandRHongKong.txt
+written_2/travel_guides/berlitz1/HandRIbiza.txt
+written_2/travel_guides/berlitz1/HandRIsrael.txt
+written_2/travel_guides/berlitz1/HandRIstanbul.txt
+written_2/travel_guides/berlitz1/HandRJamaica.txt
+written_2/travel_guides/berlitz1/HandRJerusalem.txt
+written_2/travel_guides/berlitz1/HandRLakeDistrict.txt
+written_2/travel_guides/berlitz1/HandRLasVegas.txt
+written_2/travel_guides/berlitz1/HandRLisbon.txt
+written_2/travel_guides/berlitz1/HandRLosAngeles.txt
+written_2/travel_guides/berlitz1/HandRMadeira.txt
+written_2/travel_guides/berlitz1/HandRMadrid.txt
+written_2/travel_guides/berlitz1/HandRMallorca.txt
+written_2/travel_guides/berlitz1/HistoryHawaii.txt
+written_2/travel_guides/berlitz1/HistoryHongKong.txt
+written_2/travel_guides/berlitz1/HistoryIndia.txt
+written_2/travel_guides/berlitz1/HistoryMallorca.txt
+written_2/travel_guides/berlitz1/IntroEdinburgh.txt
+
+
+```
+
+
+
+
 
 3. -c - count number of matching lines in input file. This is helpful for easily seeing how many matches each file contains. 
 
+### Example #1
 
-![Image](-c1.png)
+__command:__
+```
+[cs15lwi23axu@ieng6-202]:skill-demo1-data:422$ xargs grep -c "war" < grep-results.txt > wordSearch.txt 
 
-![Image](-c2.png)
+```
 
+__output:__ 
+```
+[cs15lwi23axu@ieng6-202]:skill-demo1-data:423$ cat wordSearch.txt
+written_2/non-fiction/OUP/Abernathy/ch1.txt:8
+written_2/non-fiction/OUP/Abernathy/ch14.txt:4
+written_2/non-fiction/OUP/Abernathy/ch15.txt:3
+written_2/non-fiction/OUP/Abernathy/ch2.txt:7
+written_2/non-fiction/OUP/Abernathy/ch3.txt:8
+written_2/non-fiction/OUP/Abernathy/ch6.txt:4
+written_2/non-fiction/OUP/Abernathy/ch7.txt:6
+written_2/non-fiction/OUP/Abernathy/ch8.txt:6
+written_2/non-fiction/OUP/Abernathy/ch9.txt:0
+written_2/non-fiction/OUP/Berk/CH4.txt:27
+written_2/non-fiction/OUP/Berk/ch1.txt:21
+written_2/non-fiction/OUP/Berk/ch2.txt:34
+written_2/non-fiction/OUP/Berk/ch7.txt:28
+
+
+```
+
+
+### Example #2
+
+__command:__
+```
+[cs15lwi23axu@ieng6-202]:skill-demo1-data:426$ xargs grep -c "travel" < grep-results.txt > wordSearch.txt
+
+
+```
+
+__output:__ 
+```
+[cs15lwi23axu@ieng6-202]:skill-demo1-data:427$ cat wordSearch.txt
+written_2/non-fiction/OUP/Abernathy/ch1.txt:0
+written_2/non-fiction/OUP/Abernathy/ch14.txt:0
+written_2/non-fiction/OUP/Abernathy/ch15.txt:0
+written_2/non-fiction/OUP/Abernathy/ch2.txt:3
+written_2/non-fiction/OUP/Abernathy/ch3.txt:0
+written_2/non-fiction/OUP/Abernathy/ch6.txt:0
+written_2/non-fiction/OUP/Abernathy/ch7.txt:0
+written_2/non-fiction/OUP/Abernathy/ch8.txt:0
+written_2/non-fiction/OUP/Abernathy/ch9.txt:0
+written_2/non-fiction/OUP/Berk/CH4.txt:4
+written_2/non-fiction/OUP/Berk/ch1.txt:0
+written_2/non-fiction/OUP/Berk/ch2.txt:0
+written_2/non-fiction/OUP/Berk/ch7.txt:0
+written_2/non-fiction/OUP/Castro/chA.txt:1
+written_2/non-fiction/OUP/Castro/chB.txt:1
+written_2/non-fiction/OUP/Castro/chC.txt:1
+written_2/non-fiction/OUP/Castro/chL.txt:2
+written_2/non-fiction/OUP/Castro/chM.txt:2
+
+```
 4. -n -  each line of output contains line number of each line containing string. This helps us locate where in each of the files contain matching stings. 
 
-Example #1 
-command 
+### Example #1
+__command:__
 ```
 [cs15lwi23axu@ieng6-202]:skill-demo1-data:458$ xargs grep -n "Lucayans" < grep-results.txt > wordSearch.txt 
 
 
 ```
-output
+__output:__ 
 ```
 [cs15lwi23axu@ieng6-202]:skill-demo1-data:459$ cat wordSearch.txt
 written_2/travel_guides/berlitz2/Bahamas-History.txt:6:Centuries before the arrival of Columbus, a peaceful Amerindian people who called themselves the Luccucairi had settled in the Bahamas. Originally from South America, they had traveled up through the Caribbean islands, surviving by cultivating modest crops and from what they caught from sea and shore. Nothing in the experience of these gentle people could have prepared them for the arrival of the Pinta, the Niña, and the Santa Maria at San Salvador on 12 October 1492. Columbus believed that he had reached the East Indies and mistakenly called these people Indians. We know them today as the Lucayans. Columbus claimed the island and others in the Bahamas for his royal Spanish patrons, but not finding the gold and other riches he was seeking, he stayed for only two weeks before sailing towards Cuba.
@@ -41,15 +214,14 @@ written_2/travel_guides/berlitz2/Bahamas-History.txt:7:The Spaniards never bothe
 
 
 ```
-Example #2 
-command
+### Example #2
 
+__command:__
 ```
 [cs15lwi23axu@ieng6-202]:skill-demo1-data:460$ xargs grep -n "Malaysia" < grep-results.txt > wordSearch.txt
 
 ```
-output
-
+__output:__ 
 ```
 [cs15lwi23axu@ieng6-202]:skill-demo1-data:461$ cat wordSearch.txt
 written_2/travel_guides/berlitz1/HistoryMalaysia.txt:9:        might have made Malaysia an inviting place for the contemporaries of
@@ -181,7 +353,3 @@ written_2/travel_guides/berlitz2/Portugal-History.txt:27:Trading posts were set 
 ```
 
 
-
-![Image](-n1.png)
-
-![Image](-n2.png)
