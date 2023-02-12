@@ -14,7 +14,7 @@ source: https://man7.org/linux/man-pages/man1/grep.1.html
 
 ![Image](-L1.png)
 
-![Image](-L2.png)
+![Image](-L3.png)
 
 3. -c - count number of matching lines in input file
 
