@@ -61,7 +61,7 @@ This option outputs path of files without matching string. This is essentially t
 
 ### Example #1
 
-In this example, I search for the files that don't include the word "war" using the `-L` option. Since the collection of files includes a lot about history, one would expect war to be a common word to be used in the files. This can be helpful in showing us which words are common and which files are more unique for not containing a common word. 
+In this example, I search for the files that don't include the word "war" using the `-L` option. Since the collection of files includes a lot about history, one would expect "war" to be a common word to be used in the files. This can be helpful in showing us which words are common and which files are more unique for not containing a common word. 
 
 __command:__
 ```
