@@ -102,12 +102,14 @@ written_2/travel_guides/berlitz2/Paris-WhatToDo.txt
 ```
 ### Example #2
 
+In this example, I used the `-L` option to search for files without the word "important" which results in a comparativley small number of files
+confirming that "important" is a common word. 
+
 __command:__
 ```
 [cs15lwi23axu@ieng6-202]:skill-demo1-data:418$ xargs grep -L "important" < grep-results.txt > wordSearch.txt
 
-In this example, I used the `-L` option to search for files without the word "important" which results in a comparativley small number of files
-confirming that "important" is a common word. 
+
 
 ```
 
