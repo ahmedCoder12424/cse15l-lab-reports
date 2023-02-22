@@ -4,9 +4,12 @@
 
 ## 1. -l
 
-This option outputs path of files with matching string. This is helpful because in the output file, we simply which files contain the word rather than all the content of the files. 
+This option outputs path of files with matching string. This is helpful because in the output file, we simply find which files contain the word rather than outputting all the content of the files. 
 
 ### Example #1
+
+In this example, we are finding all files that contain the world Malaysia. Using the `-l` option here shows the list of files containing the word. If we
+had excluded the option, then the all the content of each file would be displayed which would be much less readable. 
 
 __command:__
 ```
@@ -28,6 +31,9 @@ written_2/travel_guides/berlitz2/Portugal-History.txt
 ```
 
 ### Example #2
+
+In this example, we use the option `-l` to search for the word "Bengal" which is not a name of any file and contained in the content of files. 
+Once again, we see that the files are listed that contain rather the content of the files which makes the output very readable.
 
 __command:__
 ```
@@ -54,6 +60,8 @@ written_2/travel_guides/berlitz2/Nepal-WhereToGo.txt
 This option outputs path of files without matching string. This is essentially the inverse of -l command and can be helpful in finding files without a common string. 
 
 ### Example #1
+
+In this example, I search for the files that don't include the word "war" using the `-L` option. Since the collection of files includes a lot about history, one would expect war to be a common word to be used in the files. This can be helpful in showing us which words are common and which files are more unique for not containing a common word. 
 
 __command:__
 ```
@@ -98,6 +106,8 @@ __command:__
 ```
 [cs15lwi23axu@ieng6-202]:skill-demo1-data:418$ xargs grep -L "important" < grep-results.txt > wordSearch.txt
 
+In this example, I used the `-L` option to search for files without the word "important" which results in a comparativley small number of files
+confirming that "important" is a common word. 
 
 ```
 
@@ -143,6 +153,8 @@ This option counts number of matching lines in input file. This is helpful for e
 
 ### Example #1
 
+In this example, I search for the files containing the word "war" but with the `-c` option. This could be helpful if you wanted to search for files with most occurences of the word "war" to find the files that focus on war. 
+
 __command:__
 ```
 [cs15lwi23axu@ieng6-202]:skill-demo1-data:422$ xargs grep -c "war" < grep-results.txt > wordSearch.txt 
@@ -171,6 +183,8 @@ written_2/non-fiction/OUP/Berk/ch7.txt:28
 
 
 ### Example #2
+
+Similiarly, in this example, I am searching for the word "travel" with the `-c` option. This shows which files focus on travel since the ouput shows the number of occurences of "travel" in each file. 
 
 __command:__
 ```
@@ -204,9 +218,12 @@ written_2/non-fiction/OUP/Castro/chM.txt:2
 ```
 ## 4. -n
 
-This option causes each line of output to containline number of each line containing string. This helps us locate where in each of the files contain matching stings. 
+This option causes each line of output to contain the line number of each line containing string. This helps us locate where in each of the files contain matching stings. 
 
 ### Example #1
+
+In this example, I am searching for the word "Lucayans" using the `-n` option. Since the file is large, the output helps us easily locate where "Lucayans" is in the file on lines 6 and 7. 
+
 __command:__
 ```
 [cs15lwi23axu@ieng6-202]:skill-demo1-data:458$ xargs grep -n "Lucayans" < grep-results.txt > wordSearch.txt 
@@ -223,6 +240,8 @@ written_2/travel_guides/berlitz2/Bahamas-History.txt:7:The Spaniards never bothe
 
 ```
 ### Example #2
+
+This example searches for "Malaysia" using the `-n` option and gives precise location of the word in all the files containing it. This is very detailed ouptut which can help us if we wanted to perform such a deep search for "Malaysia"
 
 __command:__
 ```
