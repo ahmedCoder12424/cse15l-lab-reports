@@ -4,7 +4,7 @@
 
 ## 1. -l
 
-This option outputs path of files with matching string. This is helpful because in the output file, we simply find which files contain the word rather than outputting all the content of the files. 
+This option outputs path of files with the matching string. This is helpful because in the output file, we simply see the paths of the files containing the word rather than outputting all the content of all the files containing the matching string.
 
 ### Example #1
 
@@ -33,7 +33,7 @@ written_2/travel_guides/berlitz2/Portugal-History.txt
 ### Example #2
 
 In this example, we use the option `-l` to search for the word "Bengal" which is not a name of any file and contained in the content of files. 
-Once again, we see that the files are listed that contain rather the content of the files which makes the output very readable.
+Once again, we see only the names of the files are listed that contain the word rather the content of the files which makes the output very readable.
 
 __command:__
 ```
@@ -57,7 +57,7 @@ written_2/travel_guides/berlitz2/Nepal-WhereToGo.txt
 
 ## 2. -L
 
-This option outputs path of files without matching string. This is essentially the inverse of -l command and can be helpful in finding files without a common string. 
+This option outputs path of files without matching string. This is essentially the inverse of -l command and can be helpful in finding files without a common string. It also producing readable output by only showing the file path and not the file contents. 
 
 ### Example #1
 
@@ -103,7 +103,7 @@ written_2/travel_guides/berlitz2/Paris-WhatToDo.txt
 ### Example #2
 
 In this example, I used the `-L` option to search for files without the word "important" which results in a comparativley small number of files
-confirming that "important" is a common word. 
+confirming that "important" is a common word which is a reasonable result. 
 
 __command:__
 ```
@@ -151,7 +151,7 @@ written_2/travel_guides/berlitz1/IntroEdinburgh.txt
 
 ## 3. -c 
 
-This option counts number of matching lines in input file. This is helpful for easily seeing how many matches each file contains. 
+This option counts number of matching lines in input file. It outputs the number of matches next to the file path. This is helpful for easily seeing how many matches each file contains. 
 
 ### Example #1
 
@@ -186,7 +186,7 @@ written_2/non-fiction/OUP/Berk/ch7.txt:28
 
 ### Example #2
 
-Similiarly, in this example, I am searching for the word "travel" with the `-c` option. This shows which files focus on travel since the ouput shows the number of occurences of "travel" in each file. 
+Similiarly, in this example, I am searching for the word "travel" with the `-c` option. This shows which files focus on travel since the ouput shows the number of occurences of "travel" in each file. This is helpful for finding files focused on travel.
 
 __command:__
 ```
@@ -220,7 +220,7 @@ written_2/non-fiction/OUP/Castro/chM.txt:2
 ```
 ## 4. -n
 
-This option causes each line of output to contain the line number of each line containing string. This helps us locate where in each of the files contain matching stings. 
+This option causes each line of output to contain the line number of each line containing string. This helps us locate where in each of the files contain matching strings. 
 
 ### Example #1
 
