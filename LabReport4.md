@@ -35,6 +35,12 @@ C^X to exit the nano editor.
   
     
    ![Image](L4-step6.png)
+  
+   ![Image](L4-step6b.png)
+  
+   ![Image](L4-step6c.png)
+  ![Image](L4-step6d.png)
+  ![Image](L4-step6e.png)
 
 ## 7. Then I used <up><up><up> to compile and <up><up><up> to run the junit tests again. The output shows all tests pass.
   
