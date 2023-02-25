@@ -67,12 +67,16 @@ to move down to the final loop to change "index1" to "index2."
   
     Lastly, I pressed the shortcut `C^X` to exit the nano editor.
 
-## 7. Then I used <up><up><up> to compile and <up><up><up> to run the junit tests again. The output shows all tests pass.
+## 7. Running the Tests Again to Show Success
+
+Then I used <up><up><up> to compile and <up><up><up> to run the junit tests again. The output shows all tests pass.
  
     
    ![Image](L4-step7.png)
 
-## 8. To push to github, I first type in the command `git add Lis<tab>.java` to complete the command `git add ListExamples.java.` To commit, I typed in the command
+## 8. Pushing to Github
+  
+  To push to github, I first type in the command `git add Lis<tab>.java` to complete the command `git add ListExamples.java.` To commit, I typed in the command
 `git commit -m "fixed-merge"`. Lastly, to push to github, I typed in the command `"git push origin main."`
   
     
