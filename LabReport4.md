@@ -34,7 +34,7 @@ Then I opened my terminal. I typed "ssh" and then up arrowed twice <up><up> to m
   I cd'd into lab7. 
   
   
-    ![Image](L4-step5.png)
+    ![Image](L4-step5a.png)
   
   
   I used the up arrow to find the commands for compiling and testing the junit tests. For compiling it was <up><up><up><up><up> and for testing it was<up><up><up><up>.
