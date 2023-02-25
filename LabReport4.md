@@ -34,7 +34,7 @@ to move down to the final loop to change "index1" to "index2." Then I used the s
 C^X to exit the nano editor.
   
     
-   ![Image](L4-step6.png)
+   ![Image](L4-step6a.png)
   
    ![Image](L4-step6b.png)
   
