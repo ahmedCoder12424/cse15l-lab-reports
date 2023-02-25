@@ -25,6 +25,8 @@ on "Delete this repository" in the "Danger Zone"
 The output shows that the test for merge failed.
   
    ![Image](L4-step5.png)
+   ![Image](L4-step5b.png)
+
 
 
 ## 6. To edit the ListExamples file, I typed in nano List<tab>.java to open the nano editor with ListExamples.java file. I used the shortcut C^W to find the merge method and use the down arrow
