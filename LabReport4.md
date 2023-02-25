@@ -19,6 +19,7 @@ on "Delete this repository" in the "Danger Zone"
 ## 4. I then typed "git clone" and went to my forked repository of lab7 and copied the ssh link and pasted it in terminal to fork the git repository on the remote machine.
   
  ![Image](L4-step4.png)
+ ![Image](L4-step4b.png)
 
 ## 5. Then I cd'd into lab7. I used the up arrow to find the commands for compiling and testing the junit tests. For compiling it was <up><up><up><up><up> and for testing it was<up><up><up><up>.
 The output shows that the test for merge failed.
