@@ -31,13 +31,7 @@ Then I opened my terminal. I typed `ssh` and then up arrowed twice `<up><up>` to
 
 ## 5. Initially Running Tests
   
-  I cd'd into lab7. 
-  
-  
-    ![Image](L4-step5a.png)
-  
-  
-  I used the up arrow to find the commands for compiling and testing the junit tests. For compiling it was `<up><up><up><up><up>` and for testing it was `<up><up><up><up>`.
+  First, I cd'd into the lab7 directory. I used the up arrow to find the commands for compiling and testing the junit tests. For compiling it was `<up><up><up><up><up>` and for testing it was `<up><up><up><up>`.
 The output shows that the test for merge failed.
   
   
