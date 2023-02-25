@@ -14,7 +14,7 @@ on "Delete this repository" in the "Danger Zone"
 
 ## 3. Then I opened my terminal. I typed "ssh" and then up arrowed twice <up><up> to my username "cse15lwi23axu@ieng6.ucsd.edu"
 
-![Image](L4-step3a.png)
+![Image](L4-step3.png)
   
 ## 4. I then typed "git clone" and went to my forked repository of lab7 and copied the ssh link and pasted it in terminal to fork the git repository on the remote machine.
   
