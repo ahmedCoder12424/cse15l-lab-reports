@@ -59,14 +59,13 @@ to move down to the final loop to change "index1" to "index2."
   
      ![Image](L4-step6c.png)
   
-  Then I used the shortcut C^O and pressed enter to save the file. 
-  
     ![Image](L4-step6d.png)
   
-  Lastly, I pressed the shortcut C^X to exit the nano editor.
-  
+    Then I used the shortcut C^O and pressed enter to save the file. 
    
   ![Image](L4-step6e.png)
+  
+    Lastly, I pressed the shortcut C^X to exit the nano editor.
 
 ## 7. Then I used <up><up><up> to compile and <up><up><up> to run the junit tests again. The output shows all tests pass.
  
