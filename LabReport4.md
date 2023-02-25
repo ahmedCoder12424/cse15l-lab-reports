@@ -50,12 +50,13 @@ The output shows that the test for merge failed.
  To edit the ListExamples file, I typed in `nano List<tab>.java` to open the nano editor with ListExamples.java file. 
   
    ![Image](L4-step6a.png)
+   ![Image](L4-step6b.png)
   
   
   I used the shortcut `C^W` to find the merge method and use the down arrow
 to move down to the final loop to change "index1" to "index2".
   
-  ![Image](L4-step6b.png)
+
   
    ![Image](L4-step6c.png)
   
