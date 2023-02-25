@@ -9,7 +9,8 @@ on "Delete this repository" in the "Danger Zone"
 
 ## 2. I went to week 7 page on the cse15l github webpage and clicked on the link, "the lab7 repo." There I clicked on fork in the top right corner to fork it to my github.
 
-![Image](L4-step2.png)
+![Image](L4-step2b.png)
+![Image](L4-step2c.png)
 
 ## 3. Then I opened my terminal. I typed "ssh" and then up arrowed twice <up><up> to my username "cse15lwi23axu@ieng6.ucsd.edu"
 
