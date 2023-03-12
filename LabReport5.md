@@ -1,7 +1,7 @@
 
 # Options for less Command
 
-[Source for this Lab Report](https://man7.org/linux/man-pages/man1/less.1.html)
+[Source for this lab report](https://man7.org/linux/man-pages/man1/less.1.html)
 
 
 ## 1. -N
