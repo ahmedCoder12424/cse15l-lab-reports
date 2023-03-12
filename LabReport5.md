@@ -3,7 +3,7 @@
 
 [Source for this lab report](https://man7.org/linux/man-pages/man1/less.1.html)
 
-I chose to follow the format of Lab Report 3 for Lab Report 5 by exploring options for less instead of grep. 
+I chose to follow the format of Lab Report 3 for Lab Report 5 by exploring options for `less` instead of `grep`. 
 
 ## 1. -N
 
