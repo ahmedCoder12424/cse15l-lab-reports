@@ -67,7 +67,7 @@ __output:__
 ## 2. -X
 
 The `-X` option leaves the output of the less command on the screen after you have exited. This can be helpful if we want to scroll back to view anything in the file 
-without having to call the less command again.
+without having to call the `less` command again.
 
 ### Example #1
 
