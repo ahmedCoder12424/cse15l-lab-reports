@@ -1,14 +1,14 @@
 
 Options for less Command
 
-source: https://man7.org/linux/man-pages/man1/less.1.html
+[Source for this Lab Report](https://man7.org/linux/man-pages/man1/less.1.html)
 
- Less 
 
-a. less -N
+## 1. -N
+
 The -N option ensures the the less output shows line numbers which can be incredibly helpful in an especially large file to find specific lines.
 
-Example1
+Example #1
 
 __command:__
 ```
@@ -34,7 +34,7 @@ __output:__
       5 the finished goods warehouse, then the search of the factory floor—where there might       
       5 be tens of thousands of partially completed items to look through—would begin.
 ```
-Example 2
+Example #2
 
 __command:__
 ```
@@ -57,15 +57,16 @@ __output:__
      10 written_2//non-fiction/OUP/.DS_Store
      11 written_2//non-fiction/OUP/Abernathy
 ```
-b. less -X
+
+## 2. -X
 The X option leaves the output of the less comamnd on the screen after you have exited. This can be helpful if we want to scroll back to view anything in the file 
 without having to call the less command again.
 
-Example 1
+Example #1
+
 __command:__
 ```
 (base) nargisjareen@Nargiss-MacBook-Pro skill-demo1-data % less -X results.txt
-
 
 ```
 
@@ -90,7 +91,6 @@ __command:__
 
 ```
 
-
 __output:__ 
 
 ```
@@ -102,8 +102,7 @@ ve emerged. Conceivably, two business units could each meet the same lean retail
 
 
 
-
-c. less -p
+## 3. -p
 This option opens the less output of the file with first occurance of the pattern set after `-p.` This can be helpful in getting to point of crucial interest
 and opens and searches the file in one step and leaves out unnecessary output before the first occurence of the pattern.
 
@@ -132,22 +131,21 @@ written_2//non-fiction/OUP/Abernathy/ch15.txt
 written_2//non-fiction/OUP/Abernathy/ch14.txt
 written_2//non-fiction/OUP/Rybczynski
 written_2//non-fiction/OUP/Rybczynski/ch2.txt
-
-
 ```
 
 ![Image](highlight1.png)
 
+
 Example #2
 
-command 
-
+__command:__
 ```
 
 (base) nargisjareen@Nargiss-MacBook-Pro Abernathy % less -N -p Dill ch7.txt
 
 ```
-output
+
+__output:__
 
 ```
 
@@ -169,7 +167,7 @@ output
 ![Image](highlight2.png)
 
 
-d. less -S
+## 4. -S
 
 
 
@@ -180,7 +178,7 @@ of the ouput coincide with a single line of the file instead of having multiple 
 Example #1 
 
 
-previous output 
+__previous output:__ 
 
 ```
 
@@ -193,12 +191,15 @@ results2.txt (END)
 
 ```
 
-output with option S 
+__command:___
 
 ```
-
 (base) nargisjareen@Nargiss-MacBook-Pro skill-demo1-data % less -N -S results2.txt
+```
 
+__improved output with option:___
+
+```
       1 written_2/travel_guides/berlitz2/Bahamas-History.txt:Centuries before the arrival of 
       2 written_2/travel_guides/berlitz2/Bahamas-History.txt:The Spaniards never bothered to 
 results2.txt (END)
@@ -209,7 +210,7 @@ results2.txt (END)
 Example #2
 
 
-previous output
+__previous output:__
 
 ``` 
 (base) nargisjareen@Nargiss-MacBook-Pro Abernathy % less -N ch7.txt
@@ -222,12 +223,17 @@ previous output
       5 Retailers’ calls to apparel manufacturers about late delivery are the basis for many       5 a tall tale at retail conventions. In the past, the standard reply to a query about w      5 hat had happened to an order was “It’s on the loading dock.” Information systems at a      5 pparel factories were primitive. If all the SKUs for an order were not in the warehou      5 se, substitutions of the same style in a different size would be offered to the retai      5 ler. Or retailers might not even notice if an unplanned substitution had been made 
 ```
 
-output with option
+
+__command:___
+
+```
+(base) nargisjareen@Nargiss-MacBook-Pro Abernathy % less -N -S ch7.txt 
 
 ```
 
-(base) nargisjareen@Nargiss-MacBook-Pro Abernathy % less -N -S ch7.txt 
+__improved output with option__:
 
+```
       1 
       2 
       3 
