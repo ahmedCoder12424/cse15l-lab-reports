@@ -72,7 +72,7 @@ without having to call the `less` command again.
 ### Example #1
 
 In this examle, I used the `-X` option on the "results.txt" file and it leaves the contents of the file displayed by the `less` command even 
-after I pressed "q" to exit the less reader. The output shows the file contents remain after quitting. This is useful because I can return back to these contents without having to type the `less command' again in the terminal.
+after I pressed "q" to exit the less reader. The output shows the file contents remain after quitting. This is useful because I can return back to these contents without having to type the `less` command again in the terminal.
 
 __command:__
 ```
