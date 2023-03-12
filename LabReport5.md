@@ -8,7 +8,7 @@
 
 The `-N` option ensures the the less output shows line numbers which can be incredibly helpful in an especially large file to find specific lines.
 
-Example #1
+### Example #1
 
 In this example, I used the `-N` option on the file "ch7.txt" and it improves the `less`output by showing line numbers making it easy to find items in the file. 
 
@@ -36,7 +36,7 @@ __output:__
       5 the finished goods warehouse, then the search of the factory floor—where there might       
       5 be tens of thousands of partially completed items to look through—would begin.
 ```
-Example #2
+### Example #2
 
 In this example, I used the `-N` option on the file "results.txt" and it improves the `less`output by showing line numbers and it nicely lists all
 file names in the file by line number making the output much more readable. 
@@ -67,7 +67,7 @@ __output:__
 The `-X` option leaves the output of the less comamnd on the screen after you have exited. This can be helpful if we want to scroll back to view anything in the file 
 without having to call the less command again.
 
-Example #1
+### Example #1
 
 In this examle, I used the `-X` option on the "results.txt" file and it leaves the contents of the file displayed by the `less` command even 
 after I pressed "q" to exit the less reader. The output shows the file contents remain after quitting. This is useful because I return back to this contents without having to type the `less command' again in the terminal.
@@ -91,7 +91,7 @@ written_2//non-fiction/OUP/Castro/chP.txt
 ```
 
 
-Example #2
+### Example #2
 
 In this example, I use the `-X` command to make sure the contents of "ch7.txt" file remain in the terminal after quitting the less reader. The output
 shows this exactly happens as I can scroll up and still view the file contents. This is useful once again because I view the contents of the text file if I need to without having to use the `less` command again.
@@ -118,7 +118,7 @@ ve emerged. Conceivably, two business units could each meet the same lean retail
 This option opens the less output of the file with first occurance of the pattern set after `-p.` This can be helpful in getting to point of crucial interest
 and opens and searches the file in one step and leaves out unnecessary output before the first occurence of the pattern.
 
-Example #1
+### Example #1
 
 In this example, I used the `-p` option to jump to files containing the "Abernathy" pattern in the "results.txt" file. The output shows that lines not containing "Abernathy" are skipped. This is useful because this option opens the result.txt file and searching for the "Abernathy" pattern in one line. 
 The screen shot also shows the "Abernathy" pattern is highlighted which is useful as well making the output more readable and targeted.
@@ -151,7 +151,7 @@ written_2//non-fiction/OUP/Rybczynski/ch2.txt
 ![Image](highlight1.png)
 
 
-Example #2
+### Example #2
 
 In this example, I used the "-p" option to jump to lines with the "Dill" pattern in the "ch7.txt" file. The output shows this occurs with lines not containing the "Dill" pattern not skipped. The screen shot also shows the "Dill" pattern is highlighted. This is all useful for swiftly getting us to the part of the file with "Dill Patern" in a readable fashion.
 
@@ -189,7 +189,7 @@ This option chops lines that go off the page instead of having them wrap around 
 of the ouput coincide with a single line of the file instead of having multiple lines of the output be a single line of the file. 
 
 
-Example #1 
+### Example #1 
 
 In this example, I used the `-S` option on the "results2.txt". As we can see, without the `-S` option, the output is quite messy with multiple lines showing for a file that only contains 2 lines.
 
@@ -245,7 +245,7 @@ results2.txt (END)
 ```
 
 
-Example #2
+### Example #2
 
 In this example, I used the `-S` option on the "ch7.txt". As we can see, with out the option, the `less` option is quite messy with 6 lines in the output
 for line 5. 
