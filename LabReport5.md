@@ -65,13 +65,14 @@ __output:__
 ```
 
 ## 2. -X
+
 The `-X` option leaves the output of the less command on the screen after you have exited. This can be helpful if we want to scroll back to view anything in the file 
 without having to call the less command again.
 
 ### Example #1
 
 In this examle, I used the `-X` option on the "results.txt" file and it leaves the contents of the file displayed by the `less` command even 
-after I pressed "q" to exit the less reader. The output shows the file contents remain after quitting. This is useful because I return back to this contents without having to type the `less command' again in the terminal.
+after I pressed "q" to exit the less reader. The output shows the file contents remain after quitting. This is useful because I can return back to these contents without having to type the `less command' again in the terminal.
 
 __command:__
 ```
@@ -116,6 +117,7 @@ ve emerged. Conceivably, two business units could each meet the same lean retail
 
 
 ## 3. -p
+
 This option opens the less output of the file with first occurance of the pattern set after `-p.` This can be helpful in getting to point of crucial interest
 and opens and searches the file in one step and leaves out unnecessary output before the first occurence of the pattern.
 
@@ -154,7 +156,7 @@ written_2//non-fiction/OUP/Rybczynski/ch2.txt
 
 ### Example #2
 
-In this example, I used the "-p" option to jump to lines with the "Dill" pattern in the "ch7.txt" file. The output shows this occurs with lines not containing the "Dill" pattern not skipped. The screen shot also shows the "Dill" pattern is highlighted. This is all useful for swiftly getting us to the part of the file with "Dill Patern" in a readable fashion.
+In this example, I used the "-p" option to jump to lines with the "Dill" pattern in the "ch7.txt" file. The output shows this occurs with lines not containing the "Dill" pattern skipped. The screen shot also shows the "Dill" pattern is highlighted. This is all useful for swiftly getting us to the part of the file with "Dill" pattern in a readable fashion.
 
 __command:__
 ```
@@ -186,9 +188,7 @@ __output:__
 
 ## 4. -S
 
-This option chops lines that go off the page instead of having them wrap around onto the next line. This helps make the output more readable by having each line 
-of the ouput coincide with a single line of the file instead of having multiple lines of the output be a single line of the file. 
-
+This option chops lines that go off the page instead of having them wrap around onto the next line. This helps make the output more readable by having each line of the ouput coincide with a single line of the file instead of having a single line of the file dispalyed through multiple lines.
 
 ### Example #1 
 
